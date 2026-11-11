@@ -11,3 +11,5 @@ compile_commands.json
 *.exe
 .cache/
 .idea/
+README.md
+tp3
