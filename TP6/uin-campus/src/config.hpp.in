@@ -1,0 +1,11 @@
+#pragma once
+
+#include <string_view>
+
+namespace uin::config {
+
+inline constexpr std::string_view nomProjet = "@PROJECT_NAME@";
+inline constexpr std::string_view version = "@PROJECT_VERSION@";
+inline constexpr std::string_view typeConstruction = "@CMAKE_BUILD_TYPE@";
+
+}
